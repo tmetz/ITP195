@@ -1,4 +1,5 @@
 import math
+import string
 
 #my_utf = ord("h") # Returns integer (ordinal) UTF-8 value of char
 #my_utf_ch = chr(121) # Returns UTF-8 char
@@ -45,11 +46,34 @@ reverse_my_str = my_str[::-1]
 #     print("Letter \"{}\" not found in \"{}\"".format(target, river))
 
 
-river = "Mississippi"
-target = input("Input a character to find: ")
-for index,letter in enumerate(river):
-    if letter.lower() == target.lower():
-        print("Letter \"{}\" found at index: {}".format(target, index))
-        break
-else:
-    print("Letter \"{}\" not found in \"{}\"".format(target, river))
+# river = "Mississippi"
+# target = input("Input a character to find: ")
+# for index,letter in enumerate(river):
+#     if letter.lower() == target.lower():
+#         print("Letter \"{}\" found at index: {}".format(target, index))
+#         break
+# else:
+#     print("Letter \"{}\" not found in \"{}\"".format(target, river))
+
+new_str = "This is a test string to split"
+new_list = new_str.split(" ")
+print(new_list)
+
+name_str = "Tamara Leah Metz"
+first_name, middle_name, last_name = name_str.split(" ")
+print(middle_name)
+
+pal_str = "Madam, I'm Adam"
+modified_str = pal_str.lower()
+
+bad_chars = string.whitespace + string.punctuation
+
+for char in modified_str:
+    if char in bad_chars:
+        modified_str = modified_str.replace(char,"")
+
+if modified_str == modified_str[::-1]:
+    print(\
+        "The original string is {}\n")
+
+# Need to finish copying this!!!!!
