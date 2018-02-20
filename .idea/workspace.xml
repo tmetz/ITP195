@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63b58316-0462-4a01-979c-b03bba9f1759" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notes/ch8.py" afterPath="$PROJECT_DIR$/notes/ch8.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ch7practice1.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,11 +13,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ch5practice1.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ch5practice1.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/In class practice/ch5practice1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="19" column="70" lean-forward="true" selection-start-line="19" selection-start-column="70" selection-end-line="19" selection-end-column="70" />
+            <state relative-caret-position="172">
+              <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ch7practice1.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ch7practice1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="15" column="59" lean-forward="false" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -56,6 +65,7 @@
         <option value="$PROJECT_DIR$/notes/ch8.py" />
         <option value="$PROJECT_DIR$/In class practice/ch8practice1.py" />
         <option value="$PROJECT_DIR$/In class practice/ch5practice1.py" />
+        <option value="$PROJECT_DIR$/ch7practice1.py" />
       </list>
     </option>
   </component>
@@ -134,7 +144,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ch5practice1">
+  <component name="RunManager" selected="Python.ch7practice1">
     <configuration name="ch5practice1" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -165,6 +175,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="ITP 195 - Python" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/notes/ch7.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="ch7practice1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ITP 195 - Python" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch7practice1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -237,20 +264,22 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <list size="6">
+    <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Python.first_class" />
       <item index="1" class="java.lang.String" itemvalue="Python.ch5practice1" />
       <item index="2" class="java.lang.String" itemvalue="Python.ch7" />
       <item index="3" class="java.lang.String" itemvalue="Python.stringops" />
       <item index="4" class="java.lang.String" itemvalue="Python.ch8" />
       <item index="5" class="java.lang.String" itemvalue="Python.ch8practice1" />
+      <item index="6" class="java.lang.String" itemvalue="Python.ch7practice1" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.ch8practice1" />
-        <item index="1" class="java.lang.String" itemvalue="Python.ch8" />
-        <item index="2" class="java.lang.String" itemvalue="Python.ch7" />
-        <item index="3" class="java.lang.String" itemvalue="Python.stringops" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.ch7practice1" />
+        <item index="1" class="java.lang.String" itemvalue="Python.ch8practice1" />
+        <item index="2" class="java.lang.String" itemvalue="Python.ch8" />
+        <item index="3" class="java.lang.String" itemvalue="Python.ch7" />
+        <item index="4" class="java.lang.String" itemvalue="Python.stringops" />
       </list>
     </recent_temporary>
   </component>
@@ -421,20 +450,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/notes/ch2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notes/ch4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="78" column="34" lean-forward="false" selection-start-line="78" selection-start-column="34" selection-end-line="78" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Turned in assignments/stringops.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -459,8 +474,32 @@
     <entry file="file://$PROJECT_DIR$/In class practice/ch8practice1.py" />
     <entry file="file://$PROJECT_DIR$/In class practice/ch5practice1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="19" column="70" lean-forward="true" selection-start-line="19" selection-start-column="70" selection-end-line="19" selection-end-column="70" />
+        <state relative-caret-position="172">
+          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notes/ch4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="78" column="34" lean-forward="false" selection-start-line="78" selection-start-column="34" selection-end-line="78" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notes/ch2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch7practice1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="15" column="59" lean-forward="false" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
           <folding />
         </state>
       </provider>
