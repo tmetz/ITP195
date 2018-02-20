@@ -16,7 +16,8 @@ while continue_loop == "y":
     continue_loop = input("Do you want to loop again?  y/n: ").lower()
 
 int_list = sorted(int_list)
-print("Here is the sorted list:")
-print(int_list)
-print("The sum of the elements is {}".format(sum(int_list)))
-print("The min is {} and the max is {}".format(min(int_list), max(int_list)))
+print("\nLoop Complete.")
+print("The sorted list is: {} ".format(int_list))
+print("The sum of the list is: {}".format(sum(int_list)))
+print("The min in the list is: {}".format(min(int_list)))
+print("The max in the list is: {}".format(max(int_list)))
