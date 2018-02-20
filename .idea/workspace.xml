@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="63b58316-0462-4a01-979c-b03bba9f1759" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notes/ch8.py" afterPath="$PROJECT_DIR$/notes/ch8.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,21 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ch8.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/notes/ch8.py">
+      <file leaf-file-name="ch5practice1.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/In class practice/ch5practice1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ch7.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/notes/ch7.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="103" column="0" lean-forward="true" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+            <state relative-caret-position="274">
+              <caret line="19" column="70" lean-forward="true" selection-start-line="19" selection-start-column="70" selection-end-line="19" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -61,13 +52,15 @@
         <option value="$PROJECT_DIR$/notes/ch4.py" />
         <option value="$PROJECT_DIR$/In class practice/ch4practice2.py" />
         <option value="$PROJECT_DIR$/Turned in assignments/stringops.py" />
-        <option value="$PROJECT_DIR$/notes/ch8.py" />
         <option value="$PROJECT_DIR$/notes/ch7.py" />
+        <option value="$PROJECT_DIR$/notes/ch8.py" />
+        <option value="$PROJECT_DIR$/In class practice/ch8practice1.py" />
+        <option value="$PROJECT_DIR$/In class practice/ch5practice1.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="22" />
+    <option name="x" value="86" />
     <option name="y" value="22" />
     <option name="width" value="1136" />
     <option name="height" value="809" />
@@ -88,6 +81,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -114,12 +108,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -141,42 +134,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ch7">
-    <configuration name="ch4" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ITP 195 - Python" />
-      <option name="SCRIPT_NAME" value="C:\Users\tlm2702\OneDrive\Documents\ITP 195 - Python\notes\ch4.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="ch4practice1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ITP 195 - Python" />
-      <option name="SCRIPT_NAME" value="C:\Users\tlm2702\OneDrive\Documents\ITP 195 - Python\In class practice\ch4practice1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="ch4practice2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.ch5practice1">
+    <configuration name="ch5practice1" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -188,7 +147,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="ITP 195 - Python" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/In class practice/ch4practice2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/In class practice/ch5practice1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -206,6 +165,40 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="ITP 195 - Python" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/notes/ch7.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="ch8" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/notes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ITP 195 - Python" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/notes/ch8.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="ch8practice1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/In class practice" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ITP 195 - Python" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/In class practice/ch8practice1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -246,19 +239,18 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.first_class" />
-      <item index="1" class="java.lang.String" itemvalue="Python.ch4" />
-      <item index="2" class="java.lang.String" itemvalue="Python.ch4practice1" />
-      <item index="3" class="java.lang.String" itemvalue="Python.ch4practice2" />
-      <item index="4" class="java.lang.String" itemvalue="Python.ch7" />
-      <item index="5" class="java.lang.String" itemvalue="Python.stringops" />
+      <item index="1" class="java.lang.String" itemvalue="Python.ch5practice1" />
+      <item index="2" class="java.lang.String" itemvalue="Python.ch7" />
+      <item index="3" class="java.lang.String" itemvalue="Python.stringops" />
+      <item index="4" class="java.lang.String" itemvalue="Python.ch8" />
+      <item index="5" class="java.lang.String" itemvalue="Python.ch8practice1" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.ch7" />
-        <item index="1" class="java.lang.String" itemvalue="Python.stringops" />
-        <item index="2" class="java.lang.String" itemvalue="Python.ch4practice2" />
-        <item index="3" class="java.lang.String" itemvalue="Python.ch4" />
-        <item index="4" class="java.lang.String" itemvalue="Python.ch4practice1" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.ch8practice1" />
+        <item index="1" class="java.lang.String" itemvalue="Python.ch8" />
+        <item index="2" class="java.lang.String" itemvalue="Python.ch7" />
+        <item index="3" class="java.lang.String" itemvalue="Python.stringops" />
       </list>
     </recent_temporary>
   </component>
@@ -276,15 +268,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="22" y="22" width="1136" height="809" extended-state="0" />
-    <editor active="true" />
+    <frame x="86" y="22" width="1136" height="809" extended-state="0" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30892858" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4134478" sideWeight="0.14887366" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4134478" sideWeight="0.15982144" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4134478" sideWeight="0.8511264" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4134478" sideWeight="0.84017855" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -307,7 +298,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/notes/ch8.py">
+    <entry file="file://$PROJECT_DIR$/In class practice/ch5practice1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -315,11 +306,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/notes/ch8.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/notes/ch7.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1734">
           <caret line="102" column="18" lean-forward="false" selection-start-line="102" selection-start-column="18" selection-end-line="102" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -327,7 +324,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -443,22 +439,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="25" column="12" lean-forward="false" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notes/ch7.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="103" column="0" lean-forward="true" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/notes/ch8.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="306">
+          <caret line="21" column="106" lean-forward="false" selection-start-line="21" selection-start-column="106" selection-end-line="21" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notes/ch7.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1294">
+          <caret line="103" column="0" lean-forward="true" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/In class practice/ch8practice1.py" />
+    <entry file="file://$PROJECT_DIR$/In class practice/ch5practice1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="19" column="70" lean-forward="true" selection-start-line="19" selection-start-column="70" selection-end-line="19" selection-end-column="70" />
           <folding />
         </state>
       </provider>
