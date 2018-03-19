@@ -18,6 +18,7 @@ my_dict.pop(key)
 my_dict.items() - all the key/value pairs
 my_dict.keys()
 my_dict.values()
+
 """
 
 contacts = {'bill': '353-1234', 'rich': '269-1234', 'jane': '352-1234'}
