@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63b58316-0462-4a01-979c-b03bba9f1759" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/In class practice/ch6practice1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/notes/ch6.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/notes/ch9.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notes/ch9.py" afterPath="$PROJECT_DIR$/notes/ch9.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -37,21 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ch9.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ch9.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/notes/ch9.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+            <state relative-caret-position="323">
+              <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -97,8 +83,8 @@
         <option value="$PROJECT_DIR$/midterm.py" />
         <option value="$PROJECT_DIR$/notes/ch6.py" />
         <option value="$PROJECT_DIR$/In class practice/ch6practice1.py" />
-        <option value="$PROJECT_DIR$/notes/ch9.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/notes/ch9.py" />
       </list>
     </option>
   </component>
@@ -191,7 +177,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ch6practice1">
+  <component name="RunManager" selected="Python.ch9">
     <configuration name="ch5practice1" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -226,19 +212,19 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="ch8practice1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ch9" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/In class practice" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/notes" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="ITP 195 - Python" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/In class practice/ch8practice1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/notes/ch9.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -314,19 +300,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Python.first_class" />
       <item index="1" class="java.lang.String" itemvalue="Python.ch5practice1" />
-      <item index="2" class="java.lang.String" itemvalue="Python.ch8practice1" />
-      <item index="3" class="java.lang.String" itemvalue="Python.midtermpractice" />
-      <item index="4" class="java.lang.String" itemvalue="Python.lists" />
-      <item index="5" class="java.lang.String" itemvalue="Python.midterm" />
-      <item index="6" class="java.lang.String" itemvalue="Python.ch6practice1" />
+      <item index="2" class="java.lang.String" itemvalue="Python.midtermpractice" />
+      <item index="3" class="java.lang.String" itemvalue="Python.lists" />
+      <item index="4" class="java.lang.String" itemvalue="Python.midterm" />
+      <item index="5" class="java.lang.String" itemvalue="Python.ch6practice1" />
+      <item index="6" class="java.lang.String" itemvalue="Python.ch9" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.ch6practice1" />
-        <item index="1" class="java.lang.String" itemvalue="Python.midterm" />
-        <item index="2" class="java.lang.String" itemvalue="Python.lists" />
-        <item index="3" class="java.lang.String" itemvalue="Python.midtermpractice" />
-        <item index="4" class="java.lang.String" itemvalue="Python.ch8practice1" />
+        <item index="0" class="java.lang.String" itemvalue="Python.ch9" />
+        <item index="1" class="java.lang.String" itemvalue="Python.ch6practice1" />
+        <item index="2" class="java.lang.String" itemvalue="Python.midterm" />
+        <item index="3" class="java.lang.String" itemvalue="Python.lists" />
+        <item index="4" class="java.lang.String" itemvalue="Python.midtermpractice" />
       </list>
     </recent_temporary>
   </component>
@@ -643,18 +629,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/notes/ch9.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notes/ch9.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
           <folding />
         </state>
       </provider>
