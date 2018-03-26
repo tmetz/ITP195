@@ -21,6 +21,7 @@ my_dict.values()
 
 """
 
+"""
 contacts = {'bill': '353-1234', 'rich': '269-1234', 'jane': '352-1234'}
 
 print(contacts)
@@ -42,3 +43,70 @@ print("-----")
 
 for i in contacts.values():
     print(i)
+
+"""
+
+"""
+#csv.reader takes opened file object and reads one line at a time
+
+import csv
+periodic_file = open("PeriodicTable.csv", "r", encoding="windows-1252")
+reader = csv.reader(periodic_file)
+for row in reader:
+    print row
+
+"""
+
+# list is ordered, set is not ordered.  So my_set[5] won't work.
+# Set is mutable.  Set is a collection.
+# Sets cannot contain duplicate values.
+
+my_set = {'a', 'b', 'c'}
+my_set = set('abc') # put any iterable in the parens
+print(my_set)
+#my_set = set() # empty set
+
+a_set=set("abcd")
+b_set = set("cdef")
+
+# Intersection (2 ways):
+print(a_set & b_set)
+print(b_set.intersection(a_set))
+
+
+#Difference (2 ways) - NOT commutative!!!:
+print(a_set - b_set)
+print(a_set.difference(b_set))
+
+print(b_set - a_set)
+print(b_set.difference(a_set))
+
+
+# Union (2 ways):
+print(a_set | b_set)
+print(b_set.union(a_set))
+
+
+#symmetric difference - IS COMMUTATIVE
+# opposite of intersection - what elements are in both sets
+
+print(a_set ^ b_set)
+print(a_set.symmetric_difference(b_set))
+
+print(b_set ^ a_set)
+print(b_set.symmetric_difference(a_set))
+
+
+# issubset and issuperset
+small_set=set("abc")
+big_set=set("abcdef")
+print(small_set <= big_set)  # True
+print(big_set >= small_set)  # True
+
+a_set.add("Tammy") # like .append for lists
+
+# my_set.clear()
+# my_set.remove("g")
+# my_set.discard("g") If item is not in there, remove throws an error but discard does not
+
+# my_set.copy() # shallow copy
