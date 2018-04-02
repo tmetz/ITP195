@@ -1,7 +1,10 @@
-# Need to fill in lots of blanks....
+import string
 
 def add_word(word, word_count_dict):
     if word in word_count_dict:
+        word_count_dict[word] += 1
+    else:
+        word_count_dict[word] = 1
 
 
 
@@ -26,9 +29,12 @@ def pretty_print(word_count_dict):
         print("{:12s} {:<3d}".format(key, val))
 
 def main():
-    word_count_dict = []
+    word_count_dict = {}
     gba_file = open("gettysburg.txt", "r")
     for line in gba_file:
+        process_line(line, word_count_dict)
+    print("Length of dictionary:", len(word_count_dict))
+    pretty_print(word_count_dict)
 
 
 if __name__ == "__main__":

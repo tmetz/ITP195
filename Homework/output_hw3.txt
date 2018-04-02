@@ -1,0 +1,14 @@
+List of unique words: 
+ask, bells, between, but, dark, darkest, deep, downy, easy, evening, farmhouse, fill, flake, frozen, gives, harness, have, here, horse, house, it, keep, know, lake, little, lovely, me, mistake, must, my, near, not, only, other, promises, queer, see, shake, snow, some, sound’s, stop, stopping, sweep, there, these, though, village, watch, whose, will, wind, with, without, year, 
+
+List of words that occur more than twice: 
+Word                Frequency            
+before              2
+go                  2
+he                  2
+miles               2
+sleep               2
+think               2
+his                 3
+woods               4
+to                  6
