@@ -14,7 +14,7 @@ class Point(object):
         return Point(self.x + param_pt.x, self.y + param_pt.y)
 
     def __str__(self):
-        return("({:.2f}, {:.2f})".format(self.x, self.y))
+        return "({:.2f}, {:.2f})".format(self.x, self.y)
 
 def main():
     pt1_inst = Point(5.0, 9.0)
