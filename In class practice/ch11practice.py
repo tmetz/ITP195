@@ -21,11 +21,9 @@ def main():
     pt2_inst = Point(3.0, 3.0)
     print(pt1_inst)
     print(pt2_inst)
-    print("Sum: ", pt2_inst.sum(pt1_inst))
-    print("Distance: ", pt2_inst.distance(pt1_inst))
 
     print("Sum: ", pt1_inst.sum(pt2_inst))
-    print("Distance: ", pt1_inst.distance(pt2_inst))
+    print("Distance: {:.4f}".format(pt1_inst.distance(pt2_inst)))
 
 if __name__ == "__main__":
     main()

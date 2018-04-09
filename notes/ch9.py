@@ -88,7 +88,7 @@ print(b_set.union(a_set))
 
 
 #symmetric difference - IS COMMUTATIVE
-# opposite of intersection - what elements are in both sets
+# opposite of intersection - what elements are not in both sets
 
 print(a_set ^ b_set)
 print(a_set.symmetric_difference(b_set))
