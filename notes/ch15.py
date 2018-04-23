@@ -20,6 +20,11 @@ def fibo(n):
     else:
         return fibo(n-1) + fibo(n-2)
 
+def fibonacci(n):
+    if n not in fibo_dict:
+        fibo_dict[n] = fibonacci(n-1) + fibonacci(n-2)
+        print(fibo_dict[n])
+    return fibo_dict[n]
 
 def factorial(num): # recursion
     if num == 1:
@@ -32,6 +37,18 @@ def factorial_loop(num):
     for i in range(2, num+1):
         my_ans *= i
     return my_ans
+
+def factorial2(num):
+    indent = 4*(6-num)*" "
+    print (indent + "Enter factorial n = ", num)
+    if num == 1:
+        print(indent + "Base case.")
+        return 1
+    else:
+        print(indent + "Before recursive call factorial(" + str(num-1) + ")")
+        rest = factorial2(num-1)
+        print(indent + "After recursive call factorial(" + str(num-1) + ") = ", rest)
+        return num*rest
 
 def reverser(my_str):
     if len(my_str) == 1:
@@ -47,6 +64,16 @@ def reverser(my_str):
 #print(factorial_loop(what_number))
 #print(fibo(what_number))
 
-what_string = input("Enter string to reverse: ")
-result = reverser(what_string)
-print("The reverse of {} is {}".format(what_string, result))
+# what_string = input("Enter string to reverse: ")
+# result = reverser(what_string)
+# print("The reverse of {} is {}".format(what_string, result))
+#x = factorial2(8)
+
+
+fibo_dict = {}
+fibo_dict[0] = 1
+fibo_dict[1] = 1
+
+fibo_val = input("Calculate what fibonacci value? ")
+print(fibo_dict[0], "\n", fibo_dict[1])
+print("Fibonnaci value of ",fibo_val, " is ", fibonacci(int(fibo_val)))
