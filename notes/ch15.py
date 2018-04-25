@@ -75,5 +75,5 @@ fibo_dict[0] = 1
 fibo_dict[1] = 1
 
 fibo_val = input("Calculate what fibonacci value? ")
-print(fibo_dict[0], "\n", fibo_dict[1])
+print(fibo_dict[0], "\n", fibo_dict[1]
 print("Fibonnaci value of ",fibo_val, " is ", fibonacci(int(fibo_val)))
