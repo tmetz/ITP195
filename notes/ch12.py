@@ -1,3 +1,4 @@
+# updated description 2-22-19
 # instance-of (for instances of a class)
 # is-a (for inheritance from a parent class) -> class hierachy
 # superclass > subclass
