@@ -1,5 +1,5 @@
 """
-Tammy Metz
+Tammy Metz 
 ITP 195 - Python
 
 Bank customer module that has class methods to withdraw, deposit, and determine
